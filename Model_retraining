@@ -30,7 +30,11 @@ eg: lets say we have given image based classification for toll plaza , no matter
   - What data goes into retrain? this is also hard, even if env changes its not better to use new small dataset as training data matters
   - will online leartning work? mostly batching should do good as we add good sample of data , but for KPIs it can run and lets see
   
-  
+  2. [nano nets retraining](https://nanonets.com/blog/machine-learning-production-retraining/) very similar to above
+  - He gives example of their developed chatbot being used by construction workers on site which adds noise and trainng data is clean samples. same as toll plaza case where we only have ddata from summer
+  - How to do retraining
+   How much new data should we include for retraining, if distribution changes very frequiently then its better to use4 all new data, small chunk of old maybe and if distribution doesnt change much good chunk of old data
+  - setting a batch training job with kubernetes or jetkins, applying online learning where it makes sense and performance and using batch retraining for most cases.
   
   
   
