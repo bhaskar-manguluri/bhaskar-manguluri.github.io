@@ -2,4 +2,26 @@
 if model performance doesnt change, then why should we retrain? still we may find advantages with updated data. When the toll plaza problem was running, we tried to do a model on completely new set of data in december to accomodate rainy season, yet it performed inferior to original, we ned to only add a few of the previous model. But there was definetly a improvement ion performance when we took low confident samples, previous samples and mainly hourly samples, the night performance increased. we dont know when it will work, when it will not work, its only decided on thetestset and pseudo running on real data. Did literatuire on this subject improved? what is the current level going through references in interest of apoplication in one of the projects. lets see how it is
 
 1. [KDnuggets](https://www.kdnuggets.com/2019/12/ultimate-guide-model-retraining.html)
-- the ver
+- the very first argument is when the distribution of data changes. Yes when distribution of data changes by definition as we are extrapolating our evaluation metrics on test data doesnt hold true. So Idealy I should check my test set distribution as long as test set distribution is similar to the production data model performance must remain the same?
+- For lingo freaks who say model drift and concept drift , concept drift is a better name for the changing data influencing model performance model drift is the popular lingo, so they are both one and the same. although there can be obvious other case of model assumption itself getting violated and causing degradation of model performance that is just a case of bad assumption either because it it tricky or human error, ignoring the discussion for that case. But as a practitioner we should always verify if model assumption is causing the issue. 
+eg: lets say we have given image based classification for toll plaza , no matter how many retrains we do by monitoring underperformance , resampling and retraining , we cant get the accuracy that can be achieved from video and sequence based assumption(and may be that can be beaten by a profile view detector and classifying based on from\nt and profile view)
+
+### How to monitor this concept drift?
+- if model performance can be evaluated/ if ground thriths can be obtained then that is some indicator opf either a bad training split or changing environment 
+- In time series we can take historic values and see how the model trained on prehistoric values deteriote with time due to change in environment, this is like understand model drift in offline itself. any kind of estimate at this level if its possible for the problem should be included in productionising 
+- Examining Feature distribution of live and predicted. Here the reference talks about the changing in training, but I feelit should be testing as we are validating the stats based on test. But Ideally test will be very similar to vaL and mostly training(I cant come up with an example where test is dissimilar to training even in timeseries that seems like can it work? so assuming all three train, test and val to be the same distribution)
+- A point to note here is when we are monitoring we need not have any ground thruth for live data, we are just inferring that as distribution is changing performance can go bad
+- There can be many ways to monitor the distribution change , may be using another descriminator or a fewshot learning model. But these simple statistics can be starting point and can be applicable very widely/generically
+ -- Range of possible values
+ -- histogram of values
+ -- whether feature accepts NULLm, if so how many NULLS?
+ _ He internally refers to another [this paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45742.pdf) which says as many features are dependent on the correlation betwwen the features we need to monitor them as well
+  -- Track correlation between features
+  -- make a model with one or two subset of features
+  -- remove one or two features from the testset
+  The last two points were not evident to me, may be need to reference the paper to get a feeol on whta exactly they are doing 
+  
+  Next reference is [Machine learning high interest credit card paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf) which says that if target distribution changes then almost always the prediction performance will decrease(I Think for many datasets for classification will have atleast one class which is less frequent, so if wwe see a distribution over time we will have less samples of that class , wehere as in training we ideally want it to be equal sampled. so I think this assumption should not hold good but as a alert if we need to configure this or not can simply des\cided on case to case basis
+  
+  
+
