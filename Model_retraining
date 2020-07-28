@@ -21,7 +21,18 @@ eg: lets say we have given image based classification for toll plaza , no matter
   -- remove one or two features from the testset
   The last two points were not evident to me, may be need to reference the paper to get a feeol on whta exactly they are doing 
   
-  Next reference is [Machine learning high interest credit card paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf) which says that if target distribution changes then almost always the prediction performance will decrease(I Think for many datasets for classification will have atleast one class which is less frequent, so if wwe see a distribution over time we will have less samples of that class , wehere as in training we ideally want it to be equal sampled. so I think this assumption should not hold good but as a alert if we need to configure this or not can simply des\cided on case to case basis
+  Next reference is [Machine learning high interest credit card paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf) which says that if target distribution changes then almost always the prediction performance will decrease(I Think for many datasets for classification will have atleast one class which is less frequent, so if wwe see a distribution over time we will have less samples of that class , wehere as in training we ideally want it to be equal sampled. so I think this assumption should not hold good but as a alert if we need to configure this or not can simply decided on case to case basis
+  he also agrees it being no means a comprehensive test n\but his reason is that if a naive model which avaerages the y labels is deployed, even if intra label distribution change the result could be same
+  
+  Two questions we need to be able to answer
+  - How often do we retrain? some problems will give direct answer as data wont be available to retrain until next iteration
+  if thats not the case, like KPI prediction, we need to monitor some score and decide on divergence
+  - What data goes into retrain? this is also hard, even if env changes its not better to use new small dataset as training data matters
+  - will online leartning work? mostly batching should do good as we add good sample of data , but for KPIs it can run and lets see
+  
+  
+  
+  
   
   
 
