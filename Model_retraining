@@ -1,0 +1,5 @@
+## Model Retraining
+if model performance doesnt change, then why should we retrain? still we may find advantages with updated data. When the toll plaza problem was running, we tried to do a model on completely new set of data in december to accomodate rainy season, yet it performed inferior to original, we ned to only add a few of the previous model. But there was definetly a improvement ion performance when we took low confident samples, previous samples and mainly hourly samples, the night performance increased. we dont know when it will work, when it will not work, its only decided on thetestset and pseudo running on real data. Did literatuire on this subject improved? what is the current level going through references in interest of apoplication in one of the projects. lets see how it is
+
+1. [KDnuggets](https://www.kdnuggets.com/2019/12/ultimate-guide-model-retraining.html)
+- the ver
