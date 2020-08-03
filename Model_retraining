@@ -91,4 +91,81 @@ concept drift can happen when our interpretation of data has changed, for exampl
 9 https://blog.valohai.com/cicd-for-machine-learning
  - he had a example of classyfying reddit subreddits
  - he uses P@1 on test set as a measure for model drift
-  
+10. https://www.atlantis-press.com/journals/ijcis/25888775/view 
+ - drift detetion added to adaptive ensemble learning model
+ - in previous work they point out drop in accuracy, Kolmogorov-Smirnov value and KL divergence to detect drift
+ - mple datasets on which we can test the retraining scenarious
+11. https://hackernoon.com/how-to-keep-your-machine-learning-models-up-to-date-vd5z3yzw
+ - more a blog post of hey you need to retrain. see netflix and spotig\fy and develop systems from begioning
+
+12. they have drift score and fugacity score. how to come upo with those especially how fugacity score and how is it different from drift score
+
+13. https://blog.datatron.com/ 
+ - K-S test to chek distribution similarity post and pre deployment
+ - Population stability index - how a varian\bles distribution changed over time, (can we suse on predictions?)
+ - Z-score comparision and having threshold(usually >3)
+
+14 https://www.datarobot.com/blog/all-data-drift-is-not-created-equal-dot-dot-dot/
+ - All drifts are not equal, if we monitor changen in every possible variable then number of alerts will be significantloy higher than using feature importance to figure out changes in important features. hence do feature importance
+15 . docs.seldon.io shows they have three monitoring alerts based on
+   - outlier detection
+  - adversarial detection
+ - drift detection
+   How do they do adversarial detection
+
+16. explaining coincept drift Xiolu wang
+ - in reasearch gate need to get access
+ - measures difference in distribution of training and predcitions
+ - Also for classification in neural nets different filters might correspomd to different classes, carefullook at this should be done to detect any model drift
+
+17. cloud google : MLOPS
+ - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
+ - a high level overview on ci cd system. a talk in gcloud 2019 meeting added to reference
+ 
+18. https://nms.kcl.ac.uk/guillermo.suarez-tangil/papers/2016aisec.pdf
+- Discusses venn abber method for retraining. a weighted confusion matrix based model
+
+19. neptune.ai/blog/concept-drift-best-practices
+- F1 score
+ - decrease in average classification probability score
+ - instance selection to choose new samples which correspond to the distributions
+ - ensembels : ensembles generally drift lessd
+ - Drop features where AUc ROc svcore is not upt mark
+ - checkout creme python library to implement online learning 
+ 
+20 Dont pay for validation: using Margin density
+ - not so promising, in research gate check again if usefu;
+
+21 Survey on concept drift: JOAO GAMA
+ - https://dl.acm.org/doi/10.1145/2523813
+- some examples are interesting other than that same poiunts reiterated
+
+22. https://www.datanami.com/2020/06/16/staying-on-top-of-ml-model-and-data-drift/
+- just says its important to have better strategy too than periodic retraininng
+- markets their tool domino
+
+23. https://dzone.com/articles/concept-drift-monitoring-model-quality-in-streamin
+- a webinar , video on best practices of mmonitoring 
+
+24. azure ml data monitoring
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-monitor-datasets
+- drift can be because of change in measurements, in our case change in the frequency value from 1 hour to 15 min intervals
+ - data quality issue, some variable having always one value(some glitch)
+ - natural drift in the value, like mean value]
+ - change in relation between features -- decrease in calculated correlations, model accuracy.
+ - azure gives features to detect and alert drift on new data, analyse old data for drift, profile new data over time(custom alerts azure application insights
+- some counts like min,max distinct values, distinct value counts etc
+- wasserstein distance metric to see difference in distributions
+
+25 https://arxiv.org/pdf/2004.00438.pdf
+ - error intersection approach to determine concept drift
+ - classification uses classification eror. for regression they suggest two models and slect the best one using error over intersection method , ehere have 2 moidels in pipeline, whichbone is favourable is choosen based on EIA
+
+26. https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45742.pdf
+- alerts based on distribution of each feature
+- test correlation of eac feature
+- have a cost of each feature
+- test how 1% increase in accuracy impacts actual value like click rates
+- examing some clusters of data(his terminology is data slices)
+
+27https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf
