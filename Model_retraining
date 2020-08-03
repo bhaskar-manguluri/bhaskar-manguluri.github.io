@@ -31,12 +31,64 @@ eg: lets say we have given image based classification for toll plaza , no matter
   - will online leartning work? mostly batching should do good as we add good sample of data , but for KPIs it can run and lets see
   
   2. [nano nets retraining](https://nanonets.com/blog/machine-learning-production-retraining/) very similar to above
-  - He gives example of their developed chatbot being used by construction workers on site which adds noise and trainng data is clean samples. same as toll plaza case where we only have ddata from summer
+  - He gives example of their developed chatbot being used by construction workers on site which adds unexpected noise and trained data is clean samples. same as toll plaza case where we only have ddata from summer
   - How to do retraining
-   How much new data should we include for retraining, if distribution changes very frequiently then its better to use4 all new data, small chunk of old maybe and if distribution doesnt change much good chunk of old data
+   How much new data should we include for retraining, if distribution changes very frequiently then its better to use all new data, small chunk of old maybe and if distribution doesnt change much good chunk of old data
   - setting a batch training job with kubernetes or jetkins, applying online learning where it makes sense and performance and using batch retraining for most cases.
-  
-  
-  
-  
+  - estimate offline how much model needs to be retrained by using a sample of data from another time or all new left out split
+  - Examining distributiuon of preicted samples and seeing if they are abnormal in case of intra class distributions or deviation from training data/test data
+  - see correlation between features and other model explainability assumptions over time and see if there is any change in it 
+  - Can we freeze and train only the last layers, as complete model training is heavy
+  - directly deploying after training decision. usually risky but is the way for online learning 
+ 3.[blog post towards data science](https://towardsdatascience.com/concept-drift-and-model-decay-in-machine-learning-a98a809ea8d4) finally a grammer nazi. concept drift is change in model or modellling assumption so old data neeed to relabelled as well mostly. data drift being newer data tagging and trained on differet things
+concept drift can happen when our interpretation of data has changed, for example in 1960 politically correct can be something else altogether to current gen for a sentiment analysis kind of model. drift can be detected through some global scores like F1 score as well. This post is only on concept drift and relabelling complete data is often a difficult task
 
+4. [AWS retraining on new data] if data distribution monotored deviated significantly from training data trigger a retrain(how siignificant and how to measure deviation is the work)
+ easier solution to answer those complications is to retrain periodically like montly.
+
+5.[ML mastery](https://machinelearningmastery.com/gentle-introduction-concept-drift-machine-learning/)[2](https://machinelearningmastery.com/machine-learning-qa-concept-drift-better-results-and-learning-faster/) 
+  
+6.https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3496-2019.pdf and https://www.sas.com/content/dam/SAS/support/en/sas-global-forum-proceedings/2019/3496-2019.pdf(dummy how to use the forecast) 
+ - Model retraining depends on many factors like calender fluctuations, business cycles, data drift, model peformance, expected benefits
+ - Things tto monitor
+ 	- Data Drift : change in distribution of data
+        - model stability : chnage in distribution of model predictions
+        - Model accuracy: if predictionsae availabhle atleast at a later point of time we can see if any change in model accuracy
+       - change ibn a variable contribution to model performance
+       
+- Reasons for model retraining
+ - Business strategy : change in the requirements may be change in the acceptablpe level of accuracy or throughput
+ - External conditions: availability of new data source or somethiong else 
+ - Business performance: change in type of business performance, new evaluations, may n\be new models
+ - model monitoring: data drift, model stability or accuracy
+
+ - #### Process for monitoring and retraining of model
+  - A timer event to start each cycle based on predefined schedule
+  - one timer event to directly start model retraining 
+  - one timer event to directly start model monitoring
+  - timer event to check availability of new data, if new data is available new monitoring job will be triggered ( may be for data drift ?)
+  - Regardless of the source we always want to monitor and log(is it a step, why the authorsd gave it in steps. its more like a philosophy or strategy
+  - A KPI measure can trigger a retraining , for example if misclassification accuracy is more than 20%
+  - A business strategy might trigge new model training or retrainig of old model
+  - new retrained model tested may be by comparing it with champion model(why dont they simply call it the current model) 
+  - They give an example of flight data , but on decision treaa nd logistic regression models(as they uise a simulater scenario of fiest model being built on\\in 1987) 
+     - so the caution is if we see any data drift, and if we trigger a retrain it can also be that this change is a short term trend and we risk unintended fitting on shorty term trend
+	- he also got a surprising result that single model trained on october data perfors better than model 12 models trained on each individual data
+	- they went for a strategy of 4 month train and 3 month monitor and claims that as there is a month data in overlap of training data it resulted in smooth change of model performance
+	
+7. https://www.cs.bham.ac.uk/~minkull/publications/OliveiraEtAlICTAI2017.pdf
+ - even this paper says concept drift is data drift(I am starting to feel like having a good lingo is better: lingo nazi)
+ - They propose a new method called PMO for concept drift detection(CDT)
+ - previous method is Intersection ofconfidence intervals; so this is targets monitoring, so they say detection of change in features as a proxy to detrect change in time series performance which contradicts the idea that this is targets monitoring where this is infact features monitoring
+ - he discusses a swarm of models and all agreeing that a concept drift occurs. good reading (which can be time taking) is need to to know how the weights are given to each sample in data and how a swarm is constructed. But this sems to be reduing false postive rate, to start with single model forecasting results to detct concept drift should be decent enough
+ - They do friedman's test and nemenyi test for p -values, can these two tests be implemented and use3d for significant tests in DL models
+ -  
+8.https://apps.dtic.mil/dtic/tr/fulltext/u2/1012527.pdf
+ -they habe some method CorEx for determining distribution changes over hisgh dimensional data
+ - normalised mean shoudl be same for same distribution(although papaer wont tell this tehy tell some metjod they developed? on ionformation theoru)
+ - very big, seems useful though
+ -
+9 https://blog.valohai.com/cicd-for-machine-learning
+ - he had a example of classyfying reddit subreddits
+ - he uses P@1 on test set as a measure for model drift
+  
