@@ -27,4 +27,34 @@ one at a time is not efficient. well hell yes
 
 A chance to show people what it feels like to make other people excited . by performing a VR show in this case. How can I make have this feeling(i would have written experienced, this guys great quote on it is makibng me not write)
 
+How randy was dutch uncled by andy and was pushed/given advise to go to phd and become professor. its because randy is a good sales man and any company would be using him as salesman but if he becomes professsor he can sell something worthwile that is education
+
+tigger or eeyore (tigger)
+never lose the child like wonder:cause thats what drives us
+help others
+
+how to get people to help you
+tell truth
+earnest people over hip anyday, cause earnest is long term,hip is short
+apologise if you screw up
+focus on others not you (true?,what about sex)
+
+Brick walss are there to show the dedication, they are there to show that we are different and we want it badly
+Dont bail the best of gold is at the bottom of layers of crap
+
+"I will fix this" is it a gratest dialoague for disappointment
+
+Be good at something it makes you valuable
+work hard, thats the secret
+if you do right thing good things has a way of happening 
+gratitutude
+dont complain just work harder
+finf\d the best in everybody: just keep waiting it will come out
+be prepared, luck is nothing but preparation
+
+Head fakes of his talk: How to lead the life not his child hood dreams
+headfake2: talk is for his kids not audience
+
+
+
 
