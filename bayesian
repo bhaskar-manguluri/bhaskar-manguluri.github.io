@@ -1,0 +1,21 @@
+Error is always basic in machine learning 
+Bayesian is one of the main areas of falling into trap
+what seeems like a simple observation in childhood is now twisting on every small problem. 
+So when the define conditional probability its is P(A|B) = P(A intersect B) /P(B) ; now this definition is straight foward if you think i set theory. now take this the other side. P(A|B)*P(B) = P(A interesct B). similarly P(B|A) * P(A) is p(B intersect A). Now intersecction is commutative so P(A|B) * P(B) = P(B|A) * P(A). so why the heck is this a great theorm an opinion in school
+again bayes theorm is not complete without law of total probabiliity , which is again for a kid obvious
+P(A) = P(A|B) + P(A|Bc) . P(A) = P(A|B)*P(B) + P(A|Bc) *P(Bc). 
+
+Now mathematically they may be simple. and especially if you go with set theory , nu twhen you think abnout applications , they really are not . Ax its simply on translating what you have in spoken language to this. what is known. what is the prior. relating the prior to posterior. which moves you away from set theory but still use bayesian
+
+suppose you have tested for a disease which has a chance of 1% in population and the accuracy of test is 99% . what is the chance that you actually have the disease
+P(having disease | testing positive for the disease) = (P(testing positive | having disease) * P(having disease)) / P(testing positve)
+now teting postive 
+LHS is posterior here 
+P(Having disease) is prior probability before the event of taking test
+p(testing posive) = total prob
+
+now are you selected at random ? beacause or else 
+
+
+
+
