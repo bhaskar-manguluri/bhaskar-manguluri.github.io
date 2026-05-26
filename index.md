@@ -1,34 +1,444 @@
-# Inside index.md
----
-layout: default
----
+Bhaskar Manguluri
 
-## The Philosophy
-I am a software engineer with 13 years of experience building scalable infrastructure, but I am also an entrepreneur running **5 Pounds Gym**. I don't just build features; I solve real-world operational problems. 
+I think I got into AI through software engineering, not the other way around.
 
----
+A lot of people enter this field today through:
 
-## What I Move
-* **Code & Systems:** Over a decade of scaling backend architectures, managing databases, and optimization.
-* **Iron & Business:** Operating a premium gym, designing customer retention loops, and aligning business metrics with physical execution.
+models,
+papers,
+APIs,
+or hype cycles.
 
----
+I entered through code.
 
-## Current Projects
-### 5 Pounds Gym
-My playground for integrating health-tech and real-world execution. 
+Through the satisfaction of:
 
-## Alacriti Info Systems
-Made my first experience into Software engineering. Initially started with java. Got facinated with clean code and solid principles. Good engineering practices of Dev, UAT, SIT and then production platforms. got facinated in making libraries, reusability of code, meta code to genrate code and reduce development time. Agile development. and through exploration of making middleware products for payments, using spring, dependency injection based frameworkds, SQL databases, and CRUD applications, came across predictive analytics and data science.
+clean abstractions,
+reusable systems,
+elegant APIs,
+middleware,
+developer tooling,
+and the feeling that good engineering could make complex things feel simple.
 
-Started data science team in the company with 4 other people, split across spark and predictive analytics team. made initial products onsentiment analysis and intelligent payment reminders. further we see most of our products needs integration, messaging platforms but not real data science projects and was a hobbyist datascience online learner back then. like many of people in those days choosed R for making statistical models and then moved to python , ANgular js1.2. became a senior engineer from junior. worked on generic messaging platform a code building tool in those days. became a big time advocate of test driven development 
+Early on, I spent a lot of time with Java and object-oriented systems.
+At that stage, I genuinely thought:
 
-## Niche AI
-Joined as a founding engineer in a startup pivoting from a hyperlocal company into AI and being someone who is software engineer plus statical. I joined as someone who has very deep values on how money devide is a lot, how we can be responsible we can be responsible, high tech company. Less thing about startup when young is you dont care about titles, we worked hard from a small office to being flagship AI company from THUB , hyderabads most budding innovation hub initiative, and finded by times internet, IIT seed find and IIIT core fund. This defines the core personality of me , like given by recent coleague at ericsson, fearlessa and honest. I count myself as technolically independent , language agnostic. curious and antsy on any new technology , especially staying so connected to the ongoing reasearch in AI, colloboration with IITH as we are positioned there. I come from a phylosophy of as a company we need one solid live business running. be it our first project of Niche Studio to classify images, to AVC our deployments of verification system for toll plaza. if not for me we would have closed the project. gained my strength as extremely resilient person, hard working. determined. never accept the loss, always fight back adversity. from all the experiences from AVC when otherwise we are doing POCS for dynamic pricing, object detection , in US and India, we would not have touched Grace.
+software quality is mostly about writing cleaner code.
 
-SO in AVC , the system is simple. each toll plaza has different prices for different vehicles, fraud is so prevalent, each contractor has a government rule to have a verification system. prior was being done by Lydars under the road to detect length and breadth of vehicle. govt recommended accuracy is atleast 70%. Pure vision problem, improves with data, lasers decrease over time, we cae to state of the art lab accuracy of 99% and more . and PR can be anything, for technocal people like us, distribution is major cars, if we say all cars too accuracy is high, its about per class metrics which the contractors never really cared. but one thing good with them is they care about a random video verifi cation. this used t be done in the beginnning. so working through noisy data and what not. 
+That belief survives even today, but over time I realized something more important:
 
-SO just like that, when startups get project only to improve the perceived speed of things, we pushed to production, with good test set of 2 months. but then we found various production issues. one day the camera is turned to see 2 lanes and we dont have observability . we see that suddenly the distribution of vehicals is more trucks and 2 lanes accuracy is dropping. another time one of the lanes have back napkin placed over camera. brittle high traffic low latency system. CNN + LSTM, perioidc model updates, production maintainance, reduced number of infra for deployment, and evrything. see the press releases maybe 
+Good engineering is not only about code elegance.
+It is about reducing chaos in systems that evolve over years.
 
-### Ericsson. 
-Started with a 4 year contract and came with a heavy hopes to upgrade telecom industry with good ML products and ML engineers. and us from wanting to scale up because of heavy lifecycle of MLOPS adaptations at that time, which became a buzzword 2 years down the line, we joined ericsson in a sense of wanting to know what is to work with 100 more data scientista in a R&D team, something swiggy and jio were not offering in their offers. we though we will be again from a deep niche sotware buildup to standard operation level ML models, less innovations etc, we reached ericsson. I never thought I'll complete 4 years here. I though we are building products in a consulatancy kind of way, good that they pay us to learn great new technologies always , R&D diesnt need to work on old technology, while others are building predict number if customers at a store, we are building ultra fast quantized models dployment in drones, making packages of explanable AI, which I feel with a good data science cycle included after maiing model, test it, see the gradcam and then augment more and then make it close to prod ready , etc is the best way of building things, we reached a place of understanding telecom, radios, ahandovers, throughputs, timeseries predictions, adding deeplearnin g flavour to this, improving the org with good engineering platforms, we came across , a oppurtunity of a live product, then came singtel, 23 sites, one 4 busy areas exploration to nationwode, 30k cellls load in one month , scaled kafka, made mongoDB ready ,  then every month deployment to thailand expansion, 5g in northamerica and sweden taking the product in radio future add on sale . to vanialla RASA product to vanialla RAG to prod RAG  
+That realization slowly pushed me upward through layers of abstraction.
+
+First:
+
+code.
+
+Then:
+
+frameworks,
+tooling,
+reusable libraries,
+backend systems,
+deployment thinking.
+
+And eventually:
+
+machine learning systems.
+Languages Were Never The Point
+
+At some point I became less emotionally attached to languages.
+
+I learned:
+
+Python,
+R,
+backend systems,
+ML tooling,
+distributed workflows.
+
+But somewhere during that process, I realized:
+
+languages are mostly communities optimized around certain kinds of thinking.
+
+Java taught me:
+
+structure,
+maintainability,
+explicitness.
+
+Python taught me:
+
+experimentation,
+leverage,
+velocity,
+scientific computing.
+
+R taught me:
+
+exploratory analysis,
+statistical thinking,
+research workflows.
+
+Over time, the language itself mattered less.
+
+The more interesting question became:
+
+what kind of systems become possible in each ecosystem?
+
+That shift changed how I approached engineering.
+
+I stopped identifying as:
+
+“Java developer,”
+or “Python developer.”
+
+And became more interested in:
+
+systems,
+workflows,
+infra,
+experimentation,
+and long-term operability.
+Discovering Machine Learning
+
+Machine learning initially felt magical.
+
+Not in the “AI will replace humanity” sense.
+
+More in the sense that:
+
+software could now learn patterns instead of only executing instructions.
+
+That idea stayed in my head for years.
+
+I started going deeper:
+
+recommendations,
+feature engineering,
+experimentation,
+optimization,
+deployment,
+model evaluation.
+
+Then eventually computer vision happened.
+
+And that completely changed the direction of my career.
+
+Computer Vision Felt Like Real Engineering
+
+Computer vision was fascinating because it forced software into reality.
+
+An API can fail quietly.
+
+A vision system fails visibly.
+
+Suddenly:
+
+lighting mattered,
+camera angles mattered,
+compression mattered,
+hardware mattered,
+latency mattered,
+edge deployment mattered,
+human labeling quality mattered.
+
+The real world started entering software systems.
+
+That was addictive.
+
+Around this phase I was deeply influenced by people like Andrej Karpathy and Jeremy Howard.
+
+Not just because they were technically strong.
+
+But because they treated machine learning as:
+
+engineering,
+intuition,
+experimentation,
+and systems thinking.
+
+Not academic theatre.
+
+I liked people who could explain:
+
+why systems fail,
+why data matters,
+why deployment changes everything,
+and why simplicity often beats sophistication.
+
+That thinking shaped me heavily.
+
+NicheAI — Where Things Became Real
+
+At NicheAI, all these interests collided together.
+
+We were building applied computer vision systems before a lot of today’s tooling ecosystem even matured properly.
+
+Which meant:
+you could not hide behind frameworks.
+
+You had to understand:
+
+data pipelines,
+inference behavior,
+edge constraints,
+deployment,
+monitoring,
+debugging,
+retraining,
+annotation workflows,
+infra,
+and operational failure modes.
+
+This is probably where my engineering personality became fully visible.
+
+Because I slowly became obsessed with one question:
+
+How do you make AI systems survive reality?
+
+Not demo reality.
+
+Actual reality.
+
+The kind where:
+
+customers behave unpredictably,
+datasets drift,
+labels are inconsistent,
+cameras fail,
+deployments break,
+and models silently degrade over months.
+
+Somewhere in repeated deployments and maintenance cycles, I stopped seeing ML models as isolated artifacts.
+
+They started feeling more like living systems.
+
+Systems that:
+
+age,
+drift,
+require monitoring,
+require feedback loops,
+require maintenance culture,
+and require operational discipline.
+
+That insight stayed with me permanently.
+
+Engineering Taste
+
+I think every engineer slowly develops taste.
+
+Mine evolved toward:
+
+observability,
+explainability,
+maintainability,
+deployment realism,
+and operational clarity.
+
+For example, I became uncomfortable deploying models without understanding:
+
+why they predict,
+how they fail,
+and what happens when environments shift.
+
+That naturally pushed me toward practices like:
+
+GradCAM visualizations,
+explainability tooling,
+active learning loops,
+monitoring,
+evaluation pipelines,
+retrieval quality analysis,
+and production-first validation.
+
+A lot of engineers enjoy building systems.
+
+I increasingly enjoyed:
+
+understanding why systems degrade.
+
+That sounds subtle, but it changes how you build everything.
+
+Startup Pressure Changes You
+
+Startups compress learning.
+
+At NicheAI, people naturally moved across boundaries:
+
+engineering,
+research,
+deployment,
+customer discussions,
+hiring,
+tech due diligence,
+infrastructure,
+experimentation.
+
+I liked that environment because curiosity was rewarded.
+
+You could:
+
+build something,
+break it,
+redesign it,
+deploy it,
+monitor it,
+and improve it continuously.
+
+That feedback loop teaches engineering differently than isolated specialization.
+
+And honestly, that startup instinct never left me.
+
+Ericsson — Scaling Thinking
+
+When the NicheAI workforce transitioned into Ericsson, the scale changed dramatically.
+
+The interesting challenge was no longer:
+“Can this system work?”
+
+It became:
+
+“Can this system survive organizational scale?”
+
+That is a completely different engineering problem.
+
+Suddenly:
+
+governance mattered,
+reproducibility mattered,
+onboarding mattered,
+documentation mattered,
+reliability mattered,
+infra maturity mattered,
+and engineering culture mattered.
+
+I found myself trying to bring startup-style experimentation into enterprise environments while still respecting enterprise physics.
+
+That tension became intellectually interesting to me.
+
+Because large organizations are not slow because people are unintelligent.
+
+They are slow because reliability itself becomes a system constraint.
+
+Understanding that changes how you think about engineering leadership.
+
+Moving Toward AI Infrastructure
+
+Over time, my work naturally moved toward:
+
+AI infrastructure,
+deployment systems,
+retrieval systems,
+vector databases,
+production RAG,
+evaluation workflows,
+observability,
+and internal AI tooling.
+
+This felt like a natural evolution.
+
+Because once you deploy enough models, you realize:
+the model itself is often the easiest part.
+
+The difficult parts are:
+
+retrieval,
+data freshness,
+infra reliability,
+monitoring,
+evaluation,
+latency,
+operational workflows,
+and long-term maintainability.
+
+The industry itself slowly started realizing this too.
+
+The Common Thread
+
+When I look back now, the technologies changed constantly:
+
+Java,
+middleware,
+Python,
+computer vision,
+edge AI,
+MLOps,
+RAG,
+vector databases,
+retrieval systems.
+
+But the underlying instinct stayed surprisingly stable.
+
+I was always chasing the same thing:
+
+reducing chaos in evolving systems.
+
+Sometimes that meant:
+
+cleaner code.
+
+Sometimes:
+
+reusable tooling.
+
+Sometimes:
+
+explainable AI.
+
+Sometimes:
+
+deployment pipelines.
+
+Sometimes:
+
+retrieval systems.
+
+Sometimes:
+
+engineering culture itself.
+
+But the core motivation remained very similar.
+
+Outside Work
+
+Outside enterprise AI, I’m building FivePounds.
+
+Oddly enough, fitness reinforced many of the same engineering lessons for me.
+
+The best systems:
+
+are sustainable,
+measurable,
+adaptive,
+progressive,
+resilient,
+and built for long-term consistency.
+
+Not short-term intensity.
+
+That applies surprisingly well to:
+
+software systems,
+machine learning systems,
+teams,
+and humans.
+Final Thought
+
+I’ve never been very interested in separating:
+
+research,
+engineering,
+product,
+infra,
+or operations.
+
+The most interesting problems usually live in the messy intersection between them.
+
+And most of my career has really just been:
+
+moving through different generations of technology,
+while carrying the same engineering instincts forward.
