@@ -1,444 +1,438 @@
-Bhaskar Manguluri
+# Bhaskar Manguluri
 
-I think I got into AI through software engineering, not the other way around.
+Engineer interested in:
+- AI systems
+- retrieval & RAG
+- production ML
+- software abstractions
+- infrastructure
+- and reducing chaos in evolving systems
+
+[GitHub](https://github.com/bhaskar-manguluri) •
+[LinkedIn](#) •
+[Resume](#)
+
+---
+
+## About
+
+I think I entered AI through software engineering, not the other way around.
 
 A lot of people enter this field today through:
+- models,
+- papers,
+- APIs,
+- or hype cycles.
 
-models,
-papers,
-APIs,
-or hype cycles.
-
-I entered through code.
-
-Through the satisfaction of:
-
-clean abstractions,
-reusable systems,
-elegant APIs,
-middleware,
-developer tooling,
-and the feeling that good engineering could make complex things feel simple.
+I entered through:
+- clean code,
+- reusable abstractions,
+- middleware,
+- developer tooling,
+- and the strange satisfaction of making systems feel simpler than they actually are.
 
 Early on, I spent a lot of time with Java and object-oriented systems.
+
 At that stage, I genuinely thought:
+> good engineering mostly meant writing cleaner code.
 
-software quality is mostly about writing cleaner code.
+That belief survived.
 
-That belief survives even today, but over time I realized something more important:
+But over time, I realized something more important:
 
-Good engineering is not only about code elegance.
-It is about reducing chaos in systems that evolve over years.
+> good engineering is mostly about reducing chaos in systems that evolve over years.
 
-That realization slowly pushed me upward through layers of abstraction.
+That realization slowly pulled me upward through layers of abstraction:
+- code,
+- frameworks,
+- tooling,
+- backend systems,
+- machine learning,
+- deployment,
+- infrastructure,
+- retrieval systems,
+- and eventually organizational AI systems.
 
-First:
+The technologies changed constantly.
 
-code.
+The underlying instinct stayed surprisingly stable.
 
-Then:
+---
 
-frameworks,
-tooling,
-reusable libraries,
-backend systems,
-deployment thinking.
+## Languages Were Never The Point
 
-And eventually:
-
-machine learning systems.
-Languages Were Never The Point
-
-At some point I became less emotionally attached to languages.
+At some point I became less emotionally attached to programming languages.
 
 I learned:
-
-Python,
-R,
-backend systems,
-ML tooling,
-distributed workflows.
+- Java,
+- Python,
+- R,
+- backend systems,
+- ML tooling,
+- distributed workflows,
+- and enough shell scripting to permanently lose respect for YAML indentation.
 
 But somewhere during that process, I realized:
 
-languages are mostly communities optimized around certain kinds of thinking.
+> languages are mostly communities optimized around certain kinds of thinking.
 
 Java taught me:
-
-structure,
-maintainability,
-explicitness.
+- structure,
+- maintainability,
+- explicitness.
 
 Python taught me:
-
-experimentation,
-leverage,
-velocity,
-scientific computing.
+- experimentation,
+- leverage,
+- scientific computing,
+- and “let’s just try this quickly.”
 
 R taught me:
+- exploratory analysis,
+- statistics,
+- research-oriented workflows.
 
-exploratory analysis,
-statistical thinking,
-research workflows.
-
-Over time, the language itself mattered less.
+Eventually the language itself mattered less.
 
 The more interesting question became:
-
-what kind of systems become possible in each ecosystem?
+> what kinds of systems become possible in each ecosystem?
 
 That shift changed how I approached engineering.
 
 I stopped identifying as:
+- “Java developer”
+- or “Python developer”
 
-“Java developer,”
-or “Python developer.”
+and became more interested in:
+- workflows,
+- abstractions,
+- deployment systems,
+- infrastructure,
+- and operational reliability.
 
-And became more interested in:
+---
 
-systems,
-workflows,
-infra,
-experimentation,
-and long-term operability.
-Discovering Machine Learning
+## Discovering Machine Learning
 
 Machine learning initially felt magical.
 
 Not in the “AI will replace humanity” sense.
 
 More in the sense that:
-
-software could now learn patterns instead of only executing instructions.
+> software could now learn patterns instead of only executing instructions.
 
 That idea stayed in my head for years.
 
-I started going deeper:
+I slowly went deeper into:
+- recommendations,
+- experimentation,
+- optimization,
+- evaluation,
+- deployment,
+- and eventually computer vision.
 
-recommendations,
-feature engineering,
-experimentation,
-optimization,
-deployment,
-model evaluation.
+Computer vision completely changed the direction of my career.
 
-Then eventually computer vision happened.
+Because vision systems force software into reality.
 
-And that completely changed the direction of my career.
-
-Computer Vision Felt Like Real Engineering
-
-Computer vision was fascinating because it forced software into reality.
+Suddenly:
+- lighting mattered,
+- camera angles mattered,
+- compression mattered,
+- edge hardware mattered,
+- latency mattered,
+- internet reliability mattered,
+- and bad labels became painfully visible.
 
 An API can fail quietly.
 
-A vision system fails visibly.
+A vision system fails publicly.
 
-Suddenly:
+That was fascinating.
 
-lighting mattered,
-camera angles mattered,
-compression mattered,
-hardware mattered,
-latency mattered,
-edge deployment mattered,
-human labeling quality mattered.
+---
 
-The real world started entering software systems.
+## Learning From The Internet Teachers
 
-That was addictive.
-
-Around this phase I was deeply influenced by people like Andrej Karpathy and Jeremy Howard.
+Around this phase I was deeply influenced by people like:
+- [Andrej Karpathy](https://karpathy.ai/)
+- [Jeremy Howard](https://www.fast.ai/)
 
 Not just because they were technically strong.
 
 But because they treated machine learning as:
-
-engineering,
-intuition,
-experimentation,
-and systems thinking.
+- engineering,
+- intuition,
+- experimentation,
+- systems thinking,
+- and iterative refinement.
 
 Not academic theatre.
 
-I liked people who could explain:
-
-why systems fail,
-why data matters,
-why deployment changes everything,
-and why simplicity often beats sophistication.
+I liked engineers who explained:
+- why systems fail,
+- why data matters,
+- why deployment changes everything,
+- and why simple systems often outperform overengineered ones.
 
 That thinking shaped me heavily.
 
-NicheAI — Where Things Became Real
+---
 
-At NicheAI, all these interests collided together.
+## NicheAI — Where Things Became Real
 
-We were building applied computer vision systems before a lot of today’s tooling ecosystem even matured properly.
+At [NicheAI](https://yourstory.com/2019/09/ericsson-acquires-niche-ai-workforce-india-centre), all these interests collided together.
+
+We were building applied computer vision systems before today’s ML tooling ecosystem properly matured.
 
 Which meant:
 you could not hide behind frameworks.
 
 You had to understand:
+- data pipelines,
+- inference behavior,
+- deployment,
+- monitoring,
+- retraining,
+- annotation workflows,
+- infra,
+- debugging,
+- and operational failure modes.
 
-data pipelines,
-inference behavior,
-edge constraints,
-deployment,
-monitoring,
-debugging,
-retraining,
-annotation workflows,
-infra,
-and operational failure modes.
-
-This is probably where my engineering personality became fully visible.
+This is probably where my engineering personality became visible.
 
 Because I slowly became obsessed with one question:
 
-How do you make AI systems survive reality?
+> How do you make AI systems survive reality?
 
 Not demo reality.
 
 Actual reality.
 
 The kind where:
+- datasets drift,
+- labels are inconsistent,
+- edge devices fail,
+- deployments silently degrade,
+- and retraining pipelines become archaeological sites after six months.
 
-customers behave unpredictably,
-datasets drift,
-labels are inconsistent,
-cameras fail,
-deployments break,
-and models silently degrade over months.
-
-Somewhere in repeated deployments and maintenance cycles, I stopped seeing ML models as isolated artifacts.
+Somewhere during repeated deployments, I stopped seeing ML models as isolated artifacts.
 
 They started feeling more like living systems.
 
 Systems that:
+- age,
+- drift,
+- require monitoring,
+- require feedback loops,
+- require explainability,
+- and require maintenance culture.
 
-age,
-drift,
-require monitoring,
-require feedback loops,
-require maintenance culture,
-and require operational discipline.
+This is also where I became increasingly interested in:
+- active learning,
+- GradCAMs,
+- explainability tooling,
+- evaluation systems,
+- deployment standards,
+- and long-term operational reliability.
 
-That insight stayed with me permanently.
+A model predicting correctly once became less interesting to me than:
+> whether the entire system still behaves correctly six months later.
 
-Engineering Taste
+---
 
-I think every engineer slowly develops taste.
+## Hidden Technical Debt In Machine Learning
 
-Mine evolved toward:
+One paper I repeatedly referenced for years during demos, presentations, and architecture discussions was:
 
-observability,
-explainability,
-maintainability,
-deployment realism,
-and operational clarity.
+[Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
 
-For example, I became uncomfortable deploying models without understanding:
+Because it perfectly described something many teams discover too late:
 
-why they predict,
-how they fail,
-and what happens when environments shift.
+> the ML model is often the smallest and cleanest part of the entire system.
 
-That naturally pushed me toward practices like:
+The real complexity lives in:
+- data dependencies,
+- feature pipelines,
+- monitoring,
+- retraining,
+- infra coupling,
+- evaluation logic,
+- and operational assumptions nobody documented.
 
-GradCAM visualizations,
-explainability tooling,
-active learning loops,
-monitoring,
-evaluation pipelines,
-retrieval quality analysis,
-and production-first validation.
+That paper matched almost every production ML system I had seen.
 
-A lot of engineers enjoy building systems.
+And honestly, the longer I work in AI, the more true it feels.
 
-I increasingly enjoyed:
+---
 
-understanding why systems degrade.
-
-That sounds subtle, but it changes how you build everything.
-
-Startup Pressure Changes You
+## Startup Pressure Cooker
 
 Startups compress learning.
 
 At NicheAI, people naturally moved across boundaries:
-
-engineering,
-research,
-deployment,
-customer discussions,
-hiring,
-tech due diligence,
-infrastructure,
-experimentation.
+- engineering,
+- research,
+- deployment,
+- customer demos,
+- hiring,
+- tech due diligence,
+- experimentation,
+- and infrastructure.
 
 I liked that environment because curiosity was rewarded.
 
 You could:
+- build something,
+- break it,
+- redesign it,
+- deploy it,
+- monitor it,
+- and improve it continuously.
 
-build something,
-break it,
-redesign it,
-deploy it,
-monitor it,
-and improve it continuously.
-
-That feedback loop teaches engineering differently than isolated specialization.
+That loop teaches engineering differently than isolated specialization.
 
 And honestly, that startup instinct never left me.
 
-Ericsson — Scaling Thinking
+---
 
-When the NicheAI workforce transitioned into Ericsson, the scale changed dramatically.
+## Ericsson — Scaling Thinking
+
+When the NicheAI workforce transitioned into [Ericsson](https://www.ericsson.com/en), the scale changed dramatically.
 
 The interesting challenge was no longer:
-“Can this system work?”
+> “Can this system work?”
 
 It became:
-
-“Can this system survive organizational scale?”
+> “Can this system survive organizational scale?”
 
 That is a completely different engineering problem.
 
 Suddenly:
+- governance mattered,
+- reproducibility mattered,
+- onboarding mattered,
+- documentation mattered,
+- infra maturity mattered,
+- and engineering culture itself became part of the system.
 
-governance mattered,
-reproducibility mattered,
-onboarding mattered,
-documentation mattered,
-reliability mattered,
-infra maturity mattered,
-and engineering culture mattered.
+One thing I spent a lot of time pushing early on was:
+- self-contained development environments,
+- Docker-first workflows,
+- Docker Compose based local systems,
+- and standardized ML project structures.
 
-I found myself trying to bring startup-style experimentation into enterprise environments while still respecting enterprise physics.
+Not because containers were fashionable.
 
-That tension became intellectually interesting to me.
+But because I had already seen enough “works on my machine” disasters.
 
-Because large organizations are not slow because people are unintelligent.
+I became increasingly interested in designing ML systems with clearer abstractions:
+- data loaders,
+- preprocessors,
+- model layers,
+- postprocessors,
+- evaluators,
+- deployment pipelines,
+- monitoring hooks.
 
-They are slow because reliability itself becomes a system constraint.
+Not because abstraction is academically elegant.
 
-Understanding that changes how you think about engineering leadership.
+But because maintenance becomes impossible without it.
 
-Moving Toward AI Infrastructure
+Especially in organizations scaling AI adoption across multiple teams.
 
-Over time, my work naturally moved toward:
+---
 
-AI infrastructure,
-deployment systems,
-retrieval systems,
-vector databases,
-production RAG,
-evaluation workflows,
-observability,
-and internal AI tooling.
+## Production ML Changed My Thinking
 
-This felt like a natural evolution.
+Over time, my work naturally drifted toward:
+- AI infrastructure,
+- retrieval systems,
+- vector databases,
+- production RAG,
+- evaluation pipelines,
+- observability,
+- and internal AI tooling.
 
-Because once you deploy enough models, you realize:
-the model itself is often the easiest part.
+Because once you deploy enough ML systems, you realize:
+
+> the model itself is often the easiest part.
 
 The difficult parts are:
-
-retrieval,
-data freshness,
-infra reliability,
-monitoring,
-evaluation,
-latency,
-operational workflows,
-and long-term maintainability.
+- retrieval quality,
+- data freshness,
+- infra reliability,
+- deployment workflows,
+- evaluation,
+- monitoring,
+- and organizational adoption.
 
 The industry itself slowly started realizing this too.
 
-The Common Thread
+---
 
-When I look back now, the technologies changed constantly:
+## Engineering Taste
 
-Java,
-middleware,
-Python,
-computer vision,
-edge AI,
-MLOps,
-RAG,
-vector databases,
-retrieval systems.
+I think every engineer slowly develops taste.
 
-But the underlying instinct stayed surprisingly stable.
+Mine evolved toward:
+- observability,
+- explainability,
+- deployment realism,
+- operational clarity,
+- and maintainability.
 
-I was always chasing the same thing:
+I became suspicious of:
+- systems that only work in notebooks,
+- metrics without operational context,
+- impressive demos without monitoring,
+- and architectures nobody can maintain six months later.
 
-reducing chaos in evolving systems.
+I increasingly value:
+- calm engineering,
+- understandable systems,
+- good abstractions,
+- operational maturity,
+- and engineers who can move between research and production without ego.
 
-Sometimes that meant:
+---
 
-cleaner code.
+## Outside Work
 
-Sometimes:
-
-reusable tooling.
-
-Sometimes:
-
-explainable AI.
-
-Sometimes:
-
-deployment pipelines.
-
-Sometimes:
-
-retrieval systems.
-
-Sometimes:
-
-engineering culture itself.
-
-But the core motivation remained very similar.
-
-Outside Work
-
-Outside enterprise AI, I’m building FivePounds.
+Outside enterprise AI, I’m building [FivePounds](https://www.instagram.com/fivepounds.fit/).
 
 Oddly enough, fitness reinforced many of the same engineering lessons for me.
 
 The best systems:
-
-are sustainable,
-measurable,
-adaptive,
-progressive,
-resilient,
-and built for long-term consistency.
+- are sustainable,
+- measurable,
+- adaptive,
+- progressive,
+- resilient,
+- and built for long-term consistency.
 
 Not short-term intensity.
 
 That applies surprisingly well to:
+- software systems,
+- machine learning systems,
+- teams,
+- and humans.
 
-software systems,
-machine learning systems,
-teams,
-and humans.
-Final Thought
+---
+
+## Final Thought
 
 I’ve never been very interested in separating:
-
-research,
-engineering,
-product,
-infra,
-or operations.
+- research,
+- engineering,
+- infra,
+- deployment,
+- operations,
+- or product thinking.
 
 The most interesting problems usually live in the messy intersection between them.
 
 And most of my career has really just been:
-
-moving through different generations of technology,
-while carrying the same engineering instincts forward.
+- moving through different generations of technology,
+- while carrying the same engineering instincts forward.
