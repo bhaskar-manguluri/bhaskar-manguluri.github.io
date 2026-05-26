@@ -8,9 +8,7 @@ Engineer interested in:
 - infrastructure
 - and reducing chaos in evolving systems
 
-[GitHub](https://github.com/bhaskar-manguluri) •
-[LinkedIn](#) •
-[Resume](#)
+[LinkedIn](https://www.linkedin.com/in/bhaskar-manguluri-49524341/)
 
 ---
 
@@ -34,13 +32,13 @@ I entered through:
 Early on, I spent a lot of time with Java and object-oriented systems.
 
 At that stage, I genuinely thought:
-> good engineering mostly meant writing cleaner code.
+> good engineering mostly meant writing cleaner code, test driven development, Agile development , team work and open communication. 
 
 That belief survived.
 
 But over time, I realized something more important:
 
-> good engineering is mostly about reducing chaos in systems that evolve over years.
+> good engineering is mostly about reducing chaos in systems against the changes and adversaries that evolve over years.
 
 That realization slowly pulled me upward through layers of abstraction:
 - code,
@@ -215,7 +213,7 @@ The kind where:
 - edge devices fail,
 - deployments silently degrade,
 - and retraining pipelines become archaeological sites after six months.
-
+- issues that pass silently make huge sound later, observability matters.
 Somewhere during repeated deployments, I stopped seeing ML models as isolated artifacts.
 
 They started feeling more like living systems.
@@ -238,12 +236,13 @@ This is also where I became increasingly interested in:
 
 A model predicting correctly once became less interesting to me than:
 > whether the entire system still behaves correctly six months later.
-
+> Most of my ML wisdom revolved around learning data consistency and evaluation metrics drive the reliability , model helps in initialising a cycle of end-to-end product iteration.
+> you iterate a product n times its better than try to come up with nth version before deploying. 
 ---
 
 ## Hidden Technical Debt In Machine Learning
 
-One paper I repeatedly referenced for years during demos, presentations, and architecture discussions was:
+This is a good time to refer one paper I repeatedly referenced for years during demos, presentations, and architecture discussions:
 
 [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
 
@@ -262,7 +261,7 @@ The real complexity lives in:
 
 That paper matched almost every production ML system I had seen.
 
-And honestly, the longer I work in AI, the more true it feels.
+And honestly, the longer I work in AI, the more true it feels.Maybe I should revisit that for fun in this agentic software times.
 
 ---
 
@@ -304,7 +303,7 @@ The interesting challenge was no longer:
 > “Can this system work?”
 
 It became:
-> “Can this system survive organizational scale?”
+> “what is a useful system for this scale, Can this system survive organizational scale? ”
 
 That is a completely different engineering problem.
 
@@ -376,6 +375,7 @@ The industry itself slowly started realizing this too.
 I think every engineer slowly develops taste.
 
 Mine evolved toward:
+- benchmarking and evaluations
 - observability,
 - explainability,
 - deployment realism,
@@ -436,3 +436,17 @@ The most interesting problems usually live in the messy intersection between the
 And most of my career has really just been:
 - moving through different generations of technology,
 - while carrying the same engineering instincts forward.
+
+One strength I slowly developed over the years is the instinct to stress systems beyond their happy path.
+Not because I enjoy skepticism, but because I’ve learned that systems only reveal their real quality when pushed through messy, end-to-end reality.
+
+naturally look for:
+
+hidden gaps,
+operational blind spots,
+missing feedback loops,
+brittle assumptions,
+and the quiet failure modes that appear only after repeated usage.
+
+Because in engineering, “completed” rarely means truly complete.
+The closer a system gets to real-world iteration, observability, monitoring, and feedback, the closer it gets to becoming a reliable product rather than just a successful demo. 
