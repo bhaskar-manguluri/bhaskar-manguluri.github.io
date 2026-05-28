@@ -1,14 +1,4 @@
-# Bhaskar Manguluri
-
-Engineer interested in:
-- AI systems
-- retrieval & RAG
-- production ML
-- software abstractions
-- infrastructure
-- and reducing chaos in evolving systems
-
-[LinkedIn](https://www.linkedin.com/in/bhaskar-manguluri-49524341/)
+# Bhaskar Manguluri [LinkedIn](https://www.linkedin.com/in/bhaskar-manguluri-49524341/)
 
 ---
 
@@ -27,7 +17,10 @@ I entered through:
 - reusable abstractions,
 - middleware,
 - developer tooling,
-- and the strange satisfaction of making systems feel simpler than they actually are.
+
+and got hooked on because
+- of that strange satisfaction of making systems feel simpler than they actually are.
+- reducing chaos in evolving systems
 
 Early on, I spent a lot of time with Java and object-oriented systems.
 
@@ -55,6 +48,7 @@ The technologies changed constantly.
 
 The underlying instinct stayed surprisingly stable.
 
+One of my lead / Architect of the company was one time giving me requirements of a project once. he was writing interfaces and test cases as code. instead of a text or jira ticket , he was writing expected input and output test case, funcitonal flow. following SOlID. I was like bro you writing all the code.. but he was like , through this I avoid confusion, a good code is always a good document. In hidsight this really struck a cord in me. Istarted seeing abstractions that make the code very mainatable , scalable. the gap from DEMO to production is huge and I got increasingly attracted to Data based products, I was in search of a team who has this passion to explore AI products but has interesting minds who are ambitioous to make it bug, then I found Niche AI. I joned them as a founding Engineer. 
 ---
 
 ## Languages Were Never The Point
@@ -69,44 +63,6 @@ I learned:
 - ML tooling,
 - distributed workflows,
 - and enough shell scripting to permanently lose respect for YAML indentation.
-
-But somewhere during that process, I realized:
-
-> languages are mostly communities optimized around certain kinds of thinking.
-
-Java taught me:
-- structure,
-- maintainability,
-- explicitness.
-
-Python taught me:
-- experimentation,
-- leverage,
-- scientific computing,
-- and “let’s just try this quickly.”
-
-R taught me:
-- exploratory analysis,
-- statistics,
-- research-oriented workflows.
-
-Eventually the language itself mattered less.
-
-The more interesting question became:
-> what kinds of systems become possible in each ecosystem?
-
-That shift changed how I approached engineering.
-
-I stopped identifying as:
-- “Java developer”
-- or “Python developer”
-
-and became more interested in:
-- workflows,
-- abstractions,
-- deployment systems,
-- infrastructure,
-- and operational reliability.
 
 ---
 
@@ -148,32 +104,6 @@ A vision system fails publicly.
 
 That was fascinating.
 
----
-
-## Learning From The Internet Teachers
-
-Around this phase I was deeply influenced by people like:
-- [Andrej Karpathy](https://karpathy.ai/)
-- [Jeremy Howard](https://www.fast.ai/)
-
-Not just because they were technically strong.
-
-But because they treated machine learning as:
-- engineering,
-- intuition,
-- experimentation,
-- systems thinking,
-- and iterative refinement.
-
-Not academic theatre.
-
-I liked engineers who explained:
-- why systems fail,
-- why data matters,
-- why deployment changes everything,
-- and why simple systems often outperform overengineered ones.
-
-That thinking shaped me heavily.
 
 ---
 
@@ -208,8 +138,6 @@ Not demo reality.
 Actual reality.
 
 The kind where:
-- datasets drift,
-- labels are inconsistent,
 - edge devices fail,
 - deployments silently degrade,
 - and retraining pipelines become archaeological sites after six months.
@@ -266,8 +194,6 @@ And honestly, the longer I work in AI, the more true it feels.Maybe I should rev
 ---
 
 ## Startup Pressure Cooker
-
-Startups compress learning.
 
 At NicheAI, people naturally moved across boundaries:
 - engineering,
@@ -342,34 +268,6 @@ Especially in organizations scaling AI adoption across multiple teams.
 
 ---
 
-## Production ML Changed My Thinking
-
-Over time, my work naturally drifted toward:
-- AI infrastructure,
-- retrieval systems,
-- vector databases,
-- production RAG,
-- evaluation pipelines,
-- observability,
-- and internal AI tooling.
-
-Because once you deploy enough ML systems, you realize:
-
-> the model itself is often the easiest part.
-
-The difficult parts are:
-- retrieval quality,
-- data freshness,
-- infra reliability,
-- deployment workflows,
-- evaluation,
-- monitoring,
-- and organizational adoption.
-
-The industry itself slowly started realizing this too.
-
----
-
 ## Engineering Taste
 
 I think every engineer slowly develops taste.
@@ -399,7 +297,7 @@ I increasingly value:
 
 ## Outside Work
 
-Outside enterprise AI, I’m building [FivePounds](https://www.instagram.com/fivepounds.fit/).
+Outside enterprise AI, I’m building [FivePounds](https://www.instagram.com/5pounds.hsr).
 
 Oddly enough, fitness reinforced many of the same engineering lessons for me.
 
@@ -442,11 +340,13 @@ Not because I enjoy skepticism, but because I’ve learned that systems only rev
 
 naturally look for:
 
-hidden gaps,
-operational blind spots,
-missing feedback loops,
-brittle assumptions,
-and the quiet failure modes that appear only after repeated usage.
+- hidden gaps,
+- operational blind spots,
+- missing feedback loops,
+- brittle assumptions,
+- and the quiet failure modes that appear only after repeated usage.
 
 Because in engineering, “completed” rarely means truly complete.
 The closer a system gets to real-world iteration, observability, monitoring, and feedback, the closer it gets to becoming a reliable product rather than just a successful demo. 
+
+
